@@ -165,10 +165,10 @@ body {
   box-sizing: border-box;
 }
 .number:nth-child(odd) {
-  border-top-color: rgb(189, 46, 46);
+  border-top-color: #bd2e2e;
 }
 .number:nth-child(37) {
-  border-top-color: rgb(77, 148, 77);
+  border-top-color: #4d944d;
 }
 .pit {
   color: #fff;
@@ -406,28 +406,28 @@ body {
   bottom: 24%;
   left: 25%;
 }
-.btn {
+.buttonspin {
   background: #1f7ce0;
   border-bottom: 5px solid #1559a3;
+  position: absolute;
   padding: 0;
   margin: 0;
-  display: inline-block;
   font-size: 15px;
-  width: 350px;
+  width: 370px;
   padding: 12px;
-  margin: 12px;
+  margin-top: 380px;
   cursor: pointer;
   color: #fff;
   font-family: 'Roboto', sans-serif;
 }
-.btn .btn-label {
+.buttonspin .buttonspin-label {
   padding: 12px;
   white-space: nowrap;
 }
-.btn.btn-reset {
+.buttonspin.buttonspin-reset {
   background: #1f7ce0;
 }
-.btn.disabled {
+.buttonspin.disabled {
   opacity: 0.2;
   transition: opacity 0.24s linear;
   cursor: not-allowed;
